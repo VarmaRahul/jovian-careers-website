@@ -1,0 +1,53 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "importPath": "markupsafe",
+        "description": "markupsafe",
+        "isExtraImport": true,
+        "detail": "markupsafe",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    return render_template('home.html')\n@app.route('/test')\ndef hello():\n    return 'Hello, this is test website'\nif __name__ == \"__main__\":\n    app.run(host=\"127.0.0.1\", debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def hello():\n    return 'Hello, this is test website'\nif __name__ == \"__main__\":\n    app.run(host=\"127.0.0.1\", debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef index():\n    return render_template('home.html')\n@app.route('/test')\ndef hello():\n    return 'Hello, this is test website'\nif __name__ == \"__main__\":\n    app.run(host=\"127.0.0.1\", debug=True)",
+        "detail": "app",
+        "documentation": {}
+    }
+]
